@@ -29,6 +29,3 @@ RUN apt-get -y install \
 
 RUN Xvfb -ac :99 -screen 0 1680x1050x24 &
 RUN export DISPLAY=:99
-
-ENTRYPOINT ["cucumber", "--format", "json", "--out", "/cucumber/out/output.json"]
-

@@ -2,5 +2,4 @@
 
 ```
 mkdir out
-docker compose up
 ```
