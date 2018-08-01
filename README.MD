@@ -1,5 +1,1 @@
-# How to
 
-```
-mkdir out
-```
